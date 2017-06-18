@@ -3,6 +3,13 @@ package string_relas;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * try to implement the slide window algorithms and normal one.
+ * The question shows below
+ * https://leetcode.com/problems/longest-substring-without-repeating-characters/#/description
+ * @author Yel
+ *
+ */
 public class RepeatChars {
 
 	public static void main(String[] args) {
