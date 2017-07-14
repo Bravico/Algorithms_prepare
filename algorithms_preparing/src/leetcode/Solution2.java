@@ -2,6 +2,7 @@ package leetcode;
 
 /**
  * 题目给的定义太不清楚了，加的一位加在后面，还有两个串不相等的情况也没有列出来，题目还是不够详细，这个题目不推荐
+ * 这个题目我之前也想过用一个消极的头来连接，但是题目中必须要用反序导致我迷糊了不知道那个8是（3+4+1）还是（2+5+1）感觉写了很久，而且写的很乱=。=
  * You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
  * You may assume the two numbers do not contain any leading zero, except the number 0 itself.
  * Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
