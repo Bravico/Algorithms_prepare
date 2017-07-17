@@ -1,5 +1,22 @@
 package leetcode;
+/**
+ * 回文算法，由于有三重循环，在长字符串的时候效率偏低
+ * Notes:使用substring()函数的时候需要非常小心，它的endIndex是不包括在里面的。。之前就遇到过，但是没有记住
+Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
 
+Example:
+
+Input: "babad"
+Output: "bab"
+
+Note: "aba" is also a valid answer.
+Example:
+Input: "cbbd"
+Output: "bb"
+
+ * @author Yel
+ *
+ */
 public class Solution5 {
 
 	public static void main(String[] args) {
