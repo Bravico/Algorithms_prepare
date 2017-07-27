@@ -5,7 +5,9 @@ import java.util.Stack;
 /**
  * Integer to Roman numeral
  * @author Yel
- *
+ * notes:
+ * newStr = roman[digit][remain]+newStr;
+ * 这个可以将字符串加在后面，避免了使用Stack更加麻烦
  */
 public class Solution12 {
 
