@@ -5,7 +5,7 @@ public class Selection {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Integer[] arr = {126,272,8,165,123,12,28}; //default value
-		Shell.sort(arr);
+		Selection.sort(arr);
 		for(int i=0;i<arr.length;i++)
 			System.out.println(arr[i]);
 	
@@ -16,7 +16,7 @@ public class Selection {
 		for(int i=0;i<N;i++){
 			int min = i;
 			for(int j=i+1; j<N; j++){
-				if(a[i].compareTo(a[j])>0) min = j;
+				if(a[min].compareTo(a[j])>0) min = j;
 			}
 			swap(a, i, min);
 		}
