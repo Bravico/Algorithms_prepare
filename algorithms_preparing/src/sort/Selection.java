@@ -1,5 +1,13 @@
 package sort;
-
+//1.进行N个位置（次）的循环
+//2.求出每个位置应该为最小的值遍历，从1~N-1
+//3.交换第i个位置的值和min中最小的值
+//ref:算法（第四版）初级排序算法
+/**
+ * implementation of selection sort
+ * @author Yel
+ *
+ */
 public class Selection {
 
 	public static void main(String[] args) {

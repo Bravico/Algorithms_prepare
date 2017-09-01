@@ -4,7 +4,6 @@ public class BubbleSort {
 	int[] arr = { 126, 272, 8, 165, 123, 12, 28 }; // default value
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		BubbleSort bs = new BubbleSort();
 		bs.bubblesort(bs.arr, bs.arr.length);
 		for(int i=0;i<bs.arr.length;i++)
@@ -15,6 +14,7 @@ public class BubbleSort {
 	public void bubblesort(int[] arr, int length) {
 		for (int i = 0; i < length; i++)
 			for (int j = 0; j < length - 1 - i; j++) {
+//			for (int j = i+1; j < length; j++) {
 				if (arr[j] > arr[j + 1]) {
 					swap(j, j + 1);
 				}
